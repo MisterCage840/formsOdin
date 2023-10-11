@@ -1,0 +1,69 @@
+:root{
+    --basic-font-family : 'Courier New', Courier, monospace;
+    --basic-margin: 50px 30px;
+    --basic-font-size: 12pt; 
+}
+
+body{
+    font-family: var(--basic-font-family);
+    font-size: var(--basic-font-size);
+    margin: var(--basic-margin);
+}
+.imgContainer{
+    width: 30%;
+    height: 800px;
+    position: relative;
+    border-radius: 5px;
+    border: 3px solid darkkhaki;
+    overflow: hidden;
+}
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+}
+.bgImg{
+    position: absolute;
+    top: 0px;
+    opacity: 25%;
+}
+.headForm{
+    width: 50%;
+    position: absolute;
+    right: 15%;
+    top: 50px;
+}
+h2,h3{
+    margin-right: 35%;
+}
+.emptyDiv{
+    right: 0px;
+    position: absolute;
+    width: 15%;
+}
+.firstColoumn{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.Name{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.Password{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+input{
+    padding: 8px;
+    border-radius: 4px;
+}
+button{
+    font-family: var(--basic-font-family);
+    font-size: var(--basic-font-size);
+    padding: 10px;
+    background-color: black;
+    color: darkgrey;
+    border-radius: 5px;
+}
